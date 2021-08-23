@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #D1FAE5;
+}
+
+html{
+    background-color: var(--primary-color);
+}
+div{
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 0.4rem auto 1.4rem;
+    width: 10rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border:none;
+}
+button{
+    background-color: var(--primary-color);
+    padding: 0.3rem;
+    border: 2px solid black;
+
+    border-radius: 0.3rem;
+}
+
+footer {
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%);
+}
+
+
+footer ul {
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+img{
+    height:1rem;
+}
