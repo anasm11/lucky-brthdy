@@ -6,6 +6,7 @@ const number=document.querySelector('#number');
 const output=document.querySelector('#output');
 
 btn.addEventListener('click',()=>{
+  console.log('clicked btton')
   if(!date.value || !number.value)
     output.innerHTML='pls enter all the fields';
 
